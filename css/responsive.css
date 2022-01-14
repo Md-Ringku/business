@@ -1,0 +1,301 @@
+@media only screen and (max-width:1200px){
+    .container {
+        width: 90%;
+    }
+    .navbar>nav>ul>li>a {
+     
+        margin-right: 25px;
+    }
+    .banner-left h1 {
+        
+        font-size: 41px;
+        margin-bottom: 20px;
+    }
+    .banner-left {
+        width: 48%;
+        margin-right: 10px;
+    }
+    .about-right h2 {
+        font-size: 32px;
+        margin-bottom: 36px;
+        font-weight: 600;
+    }
+    .tab-content p {
+        line-height: 26px;
+        margin-bottom: 8px;
+        color: #746f6f;
+    }
+    .about-right {
+        width: 50%;
+        padding-top: 0px;
+    }
+    .service-top {
+        width: 60%;
+    }
+    .port-item-wraper {
+        justify-content: center;
+    }
+    .port-item {
+        width: 30%;
+    }
+    .content {
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+    .testi-item {
+        width: 46%;
+        margin-right: 29px;
+        padding: 53px 45px;
+        position: relative;
+        overflow: hidden;
+    }
+    .post {
+        width: 30%;
+        margin-right: 23px;
+    }
+    .contact-right {
+        width: 65%;
+    }
+    .footer-widget:first-child {
+        width: 27%;
+        margin-right: 22px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .navbar {
+        width: 100%;
+        position: absolute;
+        background: #2152a9;
+        left: 0;
+        top: 69px;
+        padding: 20px 20px;
+        text-align: center;
+        display: none;
+    }
+    .navbar>nav>ul>li {
+        display: block;
+        line-height: 35px;
+    }
+    header#header {
+        background: #155BD5;
+        padding-bottom: 70px;
+        position: relative;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .banner-left {
+        width: 100%;
+        margin-right: 10px;
+        margin-bottom: 38px;
+    }
+    .banner-left h1 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+    .banner-right {
+        width: 100%;
+    }
+    .about-left {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .about-right {
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 23px;
+    }
+    .service-top {
+        width: 83%;
+    }
+    .service-box { 
+        width: 46%;
+    }
+
+    .port-btn a {
+        margin-bottom: 10px;
+    }
+    .port-item {
+        width: 46%;
+    }
+    .pricing-box {
+        width: 47%;
+        margin-bottom: 20px;
+    }
+    .pricing-wrapper {
+        flex-wrap: wrap;
+    }
+    .top-price a {
+       
+        padding: 9px 61px;
+      
+    }
+    .team-item {
+        margin-right: 20px;
+        position: relative;
+        width: 45%;
+        margin-bottom: 15px;
+    }
+    .team-wraper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .content {
+        text-align: center;
+        width: 82%;
+        margin: auto;
+    }
+    .testi-item {
+        width: 100%;
+        margin-right: 29px;
+        padding: 53px 45px;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .post {
+        width: 46%;
+        margin-right: 23px;
+        margin-bottom: 20px;
+    }
+    .client-img {
+        width: 43%;
+        margin-right: 25px;
+        border: 1px solid #ddd;
+        padding: 22px;
+        height: 94px;
+        margin-bottom: 15px;
+    }
+    .contact-lft {
+        width: 80%;
+        margin-right: 40px;
+    }
+    .contact-right {
+        width: 94%;
+    }
+    .footer-widget:first-child {
+        width: 46%;
+        margin-right: 22px;
+    }
+    .footer-widget {
+        width: 48%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .menu-icon {
+        width: 15%;
+        text-align: right;
+        display: none;
+    }
+    .main-wrapper label i {
+        color: #fff;
+        font-size: 34px;
+        display: block;
+    }
+}
+@media only screen and (max-width:768px){
+    .tab-section label {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .service-top {
+        width: 100%;
+    }
+    .service-box {
+        width: 100%;
+    }
+    .port-item {
+        width: 73%;
+    }
+    .pricing-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .team-item {
+        margin-right: 20px;
+        position: relative;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .content {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .content h2 {
+        color: #fff;
+        font-size: 32px;
+        margin-bottom: 23px;
+    }
+    .post {
+        width: 100%;
+        margin-right: 23px;
+        margin-bottom: 20px;
+    }
+    .client-img {
+        width: 80%;
+        height: 100%;
+        
+    }
+    .footer-widget {
+        width: 70%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .footer-widget:first-child {
+        width: 100%;
+        margin-right: 22px;
+    }
+    form#form input {
+        width: 93%;
+        margin-right: 14px;
+        margin-bottom: 26px;
+        padding: 13px 23px;
+        border-radius: 30px;
+        border: 1px solid #ddd;
+        outline: none;
+    }
+    .contact-lft {
+        width: 100%;
+        margin-right: 40px;
+    }
+    .logo {
+        width: 44%;
+    }
+}
+@media only screen and (max-width:576px){
+    .banner-left h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .banner-btn a:first-child {
+        background: #fff;
+        color: #155bd5;
+        padding: 14px 8px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 5px;
+        margin-right: 23px;
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .about-right h2 {
+        font-size: 23px;
+        margin-bottom: 36px;
+        font-weight: 600;
+    }
+    .service-top h2 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .container {
+        width: 100%;
+    }
+}
